@@ -41,9 +41,9 @@ public class EmployeeApplication {
    
       while (running == 1) {
          String dataStructureChoice = JOptionPane.showInputDialog("Choose Data Structure:\n" +
-                "1) Array\n2) Doubly Linked List\n3) Stack (Array)\n4) Stack (LinkedList)\n" +
-                "5) Queue (Array)\n6) Queue (LinkedList)\n7) ArrayList\n8) LinkedList\n" +
-                "9) Stack (built-in)\n10) Queue (built-in)\n11) Exit");
+                "[1] Array\n[2] Doubly Linked List\n[3] Stack (Array)\n[4] Stack (LinkedList)\n" +
+                "[5] Queue (Array)\n[6] Queue (LinkedList)\n[7] ArrayList\n[8] LinkedList\n" +
+                "[9] Stack (built-in)\n[10] Queue (built-in)\n[11] Quit");
          int choice = Integer.parseInt(dataStructureChoice);
       
          switch (choice) {
@@ -91,7 +91,7 @@ public class EmployeeApplication {
    
       while (running == 1) {
          String operationChoice = JOptionPane.showInputDialog("Choose Operation:\n" +
-                "1) Show List\n2) Add Employee\n3) Search Employee\n4) Remove Employee\n5) Save and Exit");
+                "[1] Show List\n[2] Add Employee\n[3] Search Employee\n[4] Remove Employee\n[5] Save and Quit");
          int choice = Integer.parseInt(operationChoice);
       
          switch (choice) {
