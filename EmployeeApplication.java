@@ -1,4 +1,4 @@
-package employee;
+package employee;\
 
 import javax.swing.*;
 import java.awt.*;
@@ -234,7 +234,7 @@ public class EmployeeApplication {
    }
 
    private static void searchEmployee(Object dataStructure) {
-      String searchCriteria = JOptionPane.showInputDialog("Search by:\n1) Name\n2) ID");
+      String searchCriteria = JOptionPane.showInputDialog("Search by:\n[1] Name\n[2] ID");
       int choice = Integer.parseInt(searchCriteria);
    
       if (choice == 1) {
@@ -396,7 +396,7 @@ public class EmployeeApplication {
    }
 
    private static void removeEmployee(Object dataStructure) {
-      String removeCriteria = JOptionPane.showInputDialog("Remove by:\n1) Index\n2) Name");
+      String removeCriteria = JOptionPane.showInputDialog("Remove by:\n[1] Index\n[2] Name");
       int choice = Integer.parseInt(removeCriteria);
    
       if (choice == 1) {
